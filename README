@@ -1,0 +1,21 @@
+## Problema dos Interruptores e Lâmpadas
+
+### Descrição
+Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada.
+
+### Solução
+Para resolver o problema com apenas duas idas à sala das lâmpadas, siga os passos abaixo:
+
+1. **Primeira ida**:
+   - Ligue o primeiro interruptor e deixe-o ligado por um tempo (5-10 minutos).
+   - Desligue o primeiro interruptor e ligue o segundo interruptor.
+
+2. **Segunda ida**:
+   - Vá até a sala das lâmpadas.
+   - A lâmpada que está **ligada** corresponde ao **segundo interruptor** (o que você acabou de ligar).
+   - A lâmpada que está **desligada e quente** corresponde ao **primeiro interruptor** (o que você deixou ligado por um tempo e depois desligou).
+   - A lâmpada que está **desligada e fria** corresponde ao **terceiro interruptor** (que nunca foi ligado).
+
+### Explicação
+A solução funciona porque, ao ligar o primeiro interruptor por um tempo, a lâmpada aquece. Quando você desliga o primeiro interruptor, a lâmpada permanece quente por alguns minutos, permitindo identificá-la ao tocar na lâmpada. O segundo interruptor é identificado pela lâmpada que está ligada e o terceiro interruptor pela lâmpada fria e desligada.
+
