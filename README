@@ -1,21 +1,52 @@
-## Problema dos Interruptores e Lâmpadas
 
-### Descrição
-Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada.
+Problema dos Interruptores e Lâmpadas
 
-### Solução
-Para resolver o problema com apenas duas idas à sala das lâmpadas, siga os passos abaixo:
+Descrição
 
-1. **Primeira ida**:
-   - Ligue o primeiro interruptor e deixe-o ligado por um tempo (5-10 minutos).
-   - Desligue o primeiro interruptor e ligue o segundo interruptor.
+Você está em uma sala com três interruptores, cada um controlando uma lâmpada em salas diferentes. Não é possível ver as lâmpadas da sala em que você está, mas você pode ligar e desligar os interruptores quantas vezes desejar. Seu objetivo é descobrir qual interruptor controla cada lâmpada.
 
-2. **Segunda ida**:
-   - Vá até a sala das lâmpadas.
-   - A lâmpada que está **ligada** corresponde ao **segundo interruptor** (o que você acabou de ligar).
-   - A lâmpada que está **desligada e quente** corresponde ao **primeiro interruptor** (o que você deixou ligado por um tempo e depois desligou).
-   - A lâmpada que está **desligada e fria** corresponde ao **terceiro interruptor** (que nunca foi ligado).
+Solução
 
-### Explicação
-A solução funciona porque, ao ligar o primeiro interruptor por um tempo, a lâmpada aquece. Quando você desliga o primeiro interruptor, a lâmpada permanece quente por alguns minutos, permitindo identificá-la ao tocar na lâmpada. O segundo interruptor é identificado pela lâmpada que está ligada e o terceiro interruptor pela lâmpada fria e desligada.
+Para resolver o problema com apenas duas idas até a sala das lâmpadas, siga os passos abaixo:
 
+	1.	Primeira Ida:
+	•	Ligue o primeiro interruptor e deixe-o ligado por cerca de 5 a 10 minutos.
+	•	Desligue o primeiro interruptor e ligue o segundo interruptor.
+	2.	Segunda Ida:
+	•	Vá até a sala das lâmpadas e observe:
+	•	A lâmpada que estiver ligada corresponde ao segundo interruptor, que você acabou de ligar.
+	•	A lâmpada que estiver desligada e quente corresponde ao primeiro interruptor, que você deixou ligado por um tempo e depois desligou.
+	•	A lâmpada que estiver desligada e fria corresponde ao terceiro interruptor, que nunca foi ligado.
+
+Explicação
+
+A lógica por trás dessa solução é que, ao deixar o primeiro interruptor ligado por alguns minutos, a lâmpada correspondente aquece. Mesmo após desligá-la, a lâmpada permanece quente por um tempo, permitindo identificá-la ao tocá-la. Assim, é possível distinguir entre as três lâmpadas apenas observando o estado e a temperatura delas.
+
+
+
+
+
+
+--------------------------------
+
+
+
+
+
+Projeto: Desafio de Lógica e Programação
+
+Sobre o Projeto
+
+Este projeto reúne alguns desafios de lógica e programação, abordando conceitos como a sequência de Fibonacci, manipulação de strings, operações matemáticas e problemas lógicos. A ideia é praticar e demonstrar soluções para problemas comuns, ajudando a desenvolver habilidades de raciocínio lógico e domínio de linguagem de programação.
+
+O que você encontrará aqui?
+
+	•	Fibonacci: Um programa que verifica se um número pertence à famosa sequência de Fibonacci.
+	•	Contagem de Letras: Código que conta quantas vezes a letra ‘a’ aparece em uma frase, considerando maiúsculas e minúsculas.
+	•	Cálculo Matemático: Uma função que realiza uma operação simples e rápida para demonstrar controle de loops.
+	•	Desafios de Lógica: Sequências numéricas com padrões diferentes, convidando você a completar a lógica de cada uma.
+	•	Problema dos Interruptores: Um quebra-cabeça lógico para descobrir qual interruptor controla qual lâmpada em apenas duas tentativas.
+
+Objetivo
+
+O principal objetivo deste projeto é mostrar diferentes abordagens e soluções para problemas de lógica usando JavaScript. 
